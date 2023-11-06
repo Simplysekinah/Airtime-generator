@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="airtime.css">
+</head>
+<body>
+    <div id="random"></div>
+    <br>
+    <br>
+    <!-- Airtime Generator -->
+    <select name="" id="net-work">
+        <option value="">SELECT NETWORK </option>
+        <option value="MTN">MTN</option>
+        <option value="GLO">GLO</option>
+        <option value="AIRTEL">AIRTEL</option>
+        <option value="ETISALAT">ETISALAT</option>
+    </select>
+    <select name="" id="amount">
+        <option value="">ENTER AMOUNT</option>
+        <option value="100">100</option>
+        <option value="200">200</option>
+        <option value="500">500</option>
+        <option value="1000">1000</option>
+    </select>
+    <main>
+        <h4>Generate Airtime</h4>
+        <h1 id="airtime_screen"></h1>
+        <button onclick="genAirtime()" id="click">generate airtime</button>
+
+    </main>
+    <br>
+    <br>
+    <main>
+        <input type="text" id="load_airtime">
+        <br>
+        <button onclick="loadAirtime()" id="load">Load Airtime</button>
+    </main>
+</body>
+<script src="airtime.js"></script>
+</html>
